@@ -1,1 +1,1 @@
-This is final project report for News World App.
+This is a progress report for News World App.
