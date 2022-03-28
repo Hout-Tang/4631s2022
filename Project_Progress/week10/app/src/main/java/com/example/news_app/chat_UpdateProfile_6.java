@@ -46,7 +46,6 @@ public class chat_UpdateProfile_6 extends AppCompatActivity {
     private FirebaseFirestore firebaseFirestore;
     private FirebaseDatabase firebaseDatabase;
 
-
     private ImageView mGetNewImageInImageView;
 
     private StorageReference storageReference;

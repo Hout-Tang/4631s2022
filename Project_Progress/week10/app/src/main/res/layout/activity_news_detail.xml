@@ -94,6 +94,6 @@
         android:textAllCaps="false"
         android:textSize="16dp"
         app:backgroundTint="@color/yellow"
-        app:cardCornerRadius="1000dp"/>
+        app:cardCornerRadius="1000dp" />
 
 </RelativeLayout>

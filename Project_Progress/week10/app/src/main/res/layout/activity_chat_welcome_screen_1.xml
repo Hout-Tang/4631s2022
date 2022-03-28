@@ -64,12 +64,12 @@
         android:layout_height="50dp"
         android:layout_below="@id/countrycodepicker"
         android:layout_marginTop="4dp"
-        android:background="@color/yellow"
+        android:background="@color/grey_v1"
         android:hint="Enter Your Number Here"
         android:inputType="number"
         android:textAlignment="center"
-        android:textColor="@color/black_shade_1"
-        android:textColorHint="@color/black_shade_1"></EditText>
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"></EditText>
 
     <android.widget.Button
         android:id="@+id/sendotpbutton"
@@ -82,16 +82,16 @@
         android:paddingLeft="40dp"
         android:paddingRight="40dp"
         android:text="Summit"
-        android:textColor="#5D4037"
+        android:textColor="@color/white"
         android:textSize="15sp" />
 
     <ProgressBar
+        android:id="@+id/progressbarofmain"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
         android:layout_below="@+id/sendotpbutton"
-        android:visibility="invisible"
-        android:id="@+id/progressbarofmain"
-        android:layout_marginTop="30dp"></ProgressBar>
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:visibility="invisible"></ProgressBar>
 
 </RelativeLayout>
