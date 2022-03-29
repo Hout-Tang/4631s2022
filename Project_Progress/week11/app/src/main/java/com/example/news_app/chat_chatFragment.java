@@ -55,10 +55,10 @@ public class chat_chatFragment extends Fragment {
         mRecylerView = v.findViewById(R.id.recyleView);
 
         //4.8 fetch all data (all users' data) from cloud firestore
-         Query query = firebaseFirestore.collection("Users");
+        // Query query = firebaseFirestore.collection("Users");
 
         //4.8.1 fetch all users, except the owner of account
-        //Query query = firebaseFirestore.collection("user").whereNotEqualTo("uid",firebaseAuth.getUid());
+        Query query = firebaseFirestore.collection("User").whereNotEqualTo("uid",firebaseAuth.getUid());
 
         FirestoreRecyclerOptions<chat_firebaseModel> allUserName = new FirestoreRecyclerOptions.Builder<chat_firebaseModel>().setQuery(query,chat_firebaseModel.class).build();
 
