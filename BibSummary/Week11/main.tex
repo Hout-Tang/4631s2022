@@ -1,0 +1,44 @@
+\documentclass{article}
+\usepackage[
+backend=biber,
+style=alphabetic,
+sorting=ynt
+]{biblatex}
+\usepackage{indentfirst}
+
+
+
+\addbibresource{bibliography.bib}
+
+\title{Bibliography Summary}
+\author{Hout Tang}
+\date{April 13, 2022}
+
+\begin{document}
+
+
+\maketitle
+
+\section*{Summary 1}
+% First summary: 
+
+One of the most important part of mobile development is to choose the proper database for applications. There are several useful databases options to choose from. They are MySQL, which is an open source, multi-threaded, and easy to use SQL database. The second one is PostgreSQL which is powerful, open source object-based, relational-database that is highly customizable. The third one is Redis which is an open source, low maintenance, key or value store that is used for data caching in mobile applications. The forth one is MongoDB which is a schemaless, JSON document database which is known for its flexibility and scalability \cite{JSArticle}.
+
+ 
+
+%used to skip line 
+\medskip
+
+\section*{Summary 2}
+% Second summary: 
+
+The general criteria which we choose ideal database for our mobile app is based on several factors. The first factor is the structure of our data. The structures is related to how we need to store and retrieve our data. The second factor is the size of our data. It is the quantity of the data you need to store and retrieve as critical application data \cite{BCArticle}. The amount of data might be vary depending on the server and file systems. The third factor is speed and scale. It is related to time it will take to read and write the data to your applications. For example, MongoDB is faster than MySQL when it comes to handling a large volume of unstructured data. The final factor is data modeling. It is a data structures to be stored in the database and very powerful expression of our apps.
+ \cite{JSArticle}.
+ 
+
+
+
+
+\printbibliography
+
+\end{document}

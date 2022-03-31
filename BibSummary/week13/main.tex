@@ -1,0 +1,38 @@
+\documentclass{article}
+\usepackage[
+backend=biber,
+style=alphabetic,
+sorting=ynt
+]{biblatex}
+\usepackage{indentfirst}
+
+
+
+\addbibresource{bibliography.bib}
+
+\title{Bibliography Summary}
+\author{Hout Tang}
+\date{April 27, 2022}
+
+\begin{document}
+
+
+\maketitle
+
+\section*{Summary 1}
+% First summary: 
+Top three moible app development framwork in 2020 are: Swifitic, Native Scripts and React Native.Swiftic is considered as one of the best mobile app development frameworks available in the iOS platform. It is featured with an easily navigable interface. Native Scripts is an open-source framework to create native mobile applications empowered with Angular, Typescript, JavaScript, CSS, and Vue.js. On top of that, Native Script is a preferable framework to reduce the code and time of the app loads on the system. React Native is the best JavaScript library to build native applications for all devices and platforms. With React Native, we can develop applications for both iOS and Android. In addition, it allows creating platform-specific versions of various components allowing easy using of single code-base across various multiple platforms \cite{RBArticle}.
+
+ 
+
+%used to skip line 
+\medskip
+
+\section*{Summary 2}
+% Second summary: 
+
+The best practices for working with mobile application databases are predictive caching, multi-version concurrency control method. The predictive caching can improve the performance of our mobile app by looking at how ,when, and where our users are using our app. The segment of users could be identified and can be served with specific info as they always lookup based on their behavioural traits \cite{JSArticle}. multi-version concurrency control method allows simultaneous access without blocking the threads or processes involved. It also allows a reader to view a snapshot of data before writer changes, and allow read or write operation to continue in parallel.\cite{VTArticle}.
+ 
+\printbibliography
+
+\end{document}

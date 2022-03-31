@@ -1,0 +1,39 @@
+\documentclass{article}
+\usepackage[
+backend=biber,
+style=alphabetic,
+sorting=ynt
+]{biblatex}
+\usepackage{indentfirst}
+
+
+
+\addbibresource{bibliography.bib}
+
+\title{Bibliography Summary}
+\author{Hout Tang}
+\date{April 20, 2022}
+
+\begin{document}
+
+
+\maketitle
+
+\section*{Summary 1}
+% First summary: 
+
+Specific use-cases for deciding which database to implements are following: When we need our app to continuous reads and write and the compatible data type is document or key-value store, CouchDB or Membase are recommended \cite{JSArticle}.; When we need our app to wide variety of data types support and the compatible data type is document database, CouchDB or MongoDB  are recommended; When we need our app to CRUD operation and the compatible data type is document database, CouchDB or MongoDB are recommended; When we need our app to cache or store blob data and the compatible data type is key-value store, Membase are recommended; When we need our app to offline reporting with large datasets and the compatible data type is Database which supports MapReduce, MongoDB or Hadoop are recommended;When we need our app to built-in search feature and the compatible data type is noSQL graph database, Riak are recommended \cite{JSArticle}.
+
+ 
+
+%used to skip line 
+\medskip
+
+\section*{Summary 2}
+% Second summary: 
+
+The best practices for working with mobile application databases are predictive caching, multi-version concurrency control method. The predicitive caching can improve the performance of our mobile app by looking at how ,when, and where our users are using our app. The segment of users could be identified and can be served with specific info as they always lookup based on their behavioural traits \cite{JSArticle}. multi-version concurrency control method allows simultaneous access without blocking the threads or processes involved. It also allows a reader to view a snapshot of data before writer changes, and allow read or write operation to continue in parallel.\cite{VTArticle}.
+ 
+\printbibliography
+
+\end{document}
